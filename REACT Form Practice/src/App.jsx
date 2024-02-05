@@ -8,6 +8,7 @@ import DisplayCats from '../../CATS FOLDER/displayCats'
 import CatManager from '../../CATS FOLDER/catManager'
 import ExplodingBomb from './errorBomb'
 import CalcManager from '../CALCULATOR FOLDER/calc Manager'
+import EcomManager from '../../ECOM FOLDER/Ecom manager'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,8 +21,15 @@ function App() {
 {/* <CatManager></CatManager>
 <ExplodingBomb></ExplodingBomb> */}
 
+
+
 <CalcManager></CalcManager>
-   
+<br></br>
+<br></br>
+
+<EcomManager></EcomManager>
+
+
 
 
     </>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import UserInput from './calc user input';
-import CalcOperatorButtons from './calc operation';
 import CalculationResult from './calc result';
+import CalcOperatorButtons from './calc operation buttons';
 
 function CalcManager() {
     const [input1, setInput1] = useState(0);
